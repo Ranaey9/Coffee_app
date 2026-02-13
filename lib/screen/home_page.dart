@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:kahve_app/DetaySayfasi/detay_syf.dart';
 import 'package:kahve_app/Sepet/sepet.dart';
+import 'package:kahve_app/screen/detay_syf.dart';
 import '../models/kahve.dart';
 
 class HomePage extends StatefulWidget {
