@@ -26,16 +26,16 @@ lib/
 ├── Sepet/       # Cart logic and shopping basket interface
 └── main.dart    # Application entry point
 
-Installation
-Clone the repository:
+## Installation
 
-Bash
-git clone https://github.com/Ranaey9/Coffee_app.git
-Fetch the required dependencies:
-
-Bash
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Ranaey9/Coffee_app.git
+2. Navigate to the project directory:
+cd Coffee_app
+3. Install dependencies:
 flutter pub get
-Run the application:
-
-Bash
+4. Run code generation:
+dart run build_runner build --delete-conflicting-outputs
+5. Run the app:
 flutter run
