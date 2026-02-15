@@ -1,27 +1,83 @@
- # Coffee App
+# Coffee App
 
-This is a modern Flutter mobile application designed for a coffee shop experience. The project focuses on core e-commerce functionalities such as product discovery, category management, and a personalized user experience through favorites and shopping carts.
+A modern and lightweight coffee ordering application built with **Flutter**.  
+The app allows users to explore coffee products, filter by categories, add items to favorites, and manage a shopping cart with a clean and intuitive interface.
 
-## Key Features
+---
 
-- **Product Search**: Real-time filtering of coffee products based on name.
-- **Category Navigation**: Quick access to Hot Drinks, Cold Drinks, and Snacks categories.
-- **Favorite System**: Ability to mark products as favorites and view them in a persistent dedicated section.
-- **Shopping Cart**: Full cart functionality including item addition and real-time count tracking.
-- **Detailed View**: Specific pages for each product featuring high-quality images and descriptions.
+##  Features
 
-## Technical Stack
+-  Real-time search
+-  Category filtering (Hot, Cold, Snacks)
+-  Favorite system
+-  Shopping cart with badge indicator
+-  Detailed product view
+-  Clean and minimal UI
 
-- **Framework**: Flutter
-- **Language**: Dart
-- **State Management**: Local state management using setState
-- **Navigation**: Material Routing and Bottom Navigation Bar
+---
 
-## Project Structure
+##  Project Structure
 
-```text
+```
 lib/
-├── models/      # Data models and Kahve class definitions
-├── screen/      # UI screens: Home, Detail, and Favorites
-├── Sepet/       # Cart logic and shopping basket interface
-└── main.dart    # Application entry point
+│
+├── models/        # Data models (Kahve class)
+├── screen/        # UI screens (Home, Detail, Favorites)
+└── sepet/         # Cart logic and UI
+```
+
+State management is handled using Flutter’s built-in `setState`.
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Flutter SDK
+- Dart SDK
+
+Make sure Flutter is installed correctly:
+
+```
+flutter doctor
+```
+
+---
+
+### Installation
+
+Clone the repository:
+
+```
+git clone https://github.com/Ranaey9/Coffee_app.git
+```
+
+Navigate to the project folder:
+
+```
+cd Coffee_app
+```
+
+Install dependencies:
+
+```
+flutter pub get
+```
+
+Run the app:
+
+```
+flutter run
+```
+
+---
+
+## Technologies Used
+
+- Flutter
+- Dart
+- Material Design
+
+---
+
