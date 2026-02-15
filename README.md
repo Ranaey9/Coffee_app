@@ -25,16 +25,17 @@ lib/
 ├── screen/      # UI screens: Home, Detail, and Favorites
 ├── Sepet/       # Cart logic and shopping basket interface
 └── main.dart    # Application entry point
-## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/Ranaey9/Coffee_app.git](https://github.com/Ranaey9/Coffee_app.git)
+Installation
+Clone the repository:
+
+Bash
+git clone https://github.com/Ranaey9/Coffee_app.git
 Fetch the required dependencies:
 
-```bash
+Bash
 flutter pub get
 Run the application:
 
- ```bash
+Bash
 flutter run
