@@ -393,6 +393,10 @@ class _HomePageState extends State<HomePage> {
             secilenSayfa = index;
           });
         },
+        backgroundColor: Colors.white,
+        type: BottomNavigationBarType.fixed,
+        selectedItemColor: const Color.fromARGB(255, 40, 15, 6),
+        unselectedItemColor: Colors.grey,
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
           BottomNavigationBarItem(
@@ -404,4 +408,3 @@ class _HomePageState extends State<HomePage> {
     );
   }
 }
-// test commit
